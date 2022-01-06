@@ -1,0 +1,89 @@
+/* introduce */
+.introduce{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 500px;
+    background-color: white;
+    padding-bottom: 120px;
+}
+.introduce_header h2{
+    margin: 0 20px;
+    margin-top: 50px;
+    color: gray;
+}
+.introduce_content-image img{
+    padding: 15px 113px;
+}
+.introduce_content-word1 h2{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(111, 185, 0);
+    margin-bottom: 15px;
+}
+.introduce_content-word--p1{
+    margin: 10px 48px;
+}
+.introduce_content-word--p1 p{
+    font-size: 20px;
+    line-height: 25px;
+    margin: 21px 0;
+}
+.introduce_content-word1 span{
+    color: red;
+    font-weight: bold;
+}
+.introduce_content-word2 h1{
+    color: red;
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.introduce_content-word--p2{
+    margin: 10px 48px;
+}
+.introduce_content-word--p2 p{
+    line-height: 25px;
+    margin: 21px;
+    font-size: 20px;
+}
+.introduce_content-word--p2 span{
+    color: green;
+    font-weight: bold;
+}
+i{
+    font-style: italic;
+}
+.introduce_content-word--p2 i{
+    font-weight: bold;
+}
+.introduce_baner{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    background-color: white;
+}
+.introduce_image img{
+    text-align: center;
+    width: 100%;
+}
+.introduce_banner-content{
+    margin: 10px 65px;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: justify;
+}
+.introduce_banner-content li{
+    list-style: inside;
+}
+.introduce_information{
+    text-align: center;
+}
+.introduce_information p{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.footer_gioithieu img{
+    height: 100%;
+}

@@ -1,0 +1,142 @@
+var index=1;
+ChangImg= function(){
+    var imgs=["../Content/Image/Img1.webp","../Content/Image/img2.webp","../Content/Image/img3.webp","../Content/Image/img4.webp"];
+    document.getElementById('img').src=imgs[index];
+    index++;
+    if(index==4){
+        index=0;
+    }
+}
+setInterval(ChangImg,2000);
+
+// scoll 
+$(document).ready(function () {
+    $(window).scroll(function(event){
+        var pos_body=$('html, body').scrollTop();
+        if(pos_body>250)
+        {
+            $('.middlepart_reason-top').addClass('left');
+            $('.middlepart_reason-bottom').addClass('right');
+            $('.middlepart_image').addClass('zoom');
+        }
+        else{
+            $('.middlepart_reason-top').remove('left');
+            $('.middlepart_reason-bottom').remove('right');
+            $('.middlepart_image').remove('zoom');
+        }
+        if(pos_body>160)
+        {
+            $('.menu').addClass('header1');
+        }
+        else{
+            $('.menu').removeClass('header1');
+        }
+        if(pos_body>0){
+            $('.angle-double-up').addClass('display');
+        }
+        else{
+            $('.angle-double-up').removeClass('display');
+        }
+    });
+    $('.angle-double-up').click(function(event){
+        $('html, body').animate({scrollTop:100},3000);
+    });
+});
+/* Sản phẩm index */
+$(document).ready(function(){
+    $('.banhphotuoi').click(function(event){
+        $('.banhphotuoi').addClass('active');
+        $('.buntuoi').removeClass('active');
+        $('.banhcanhgao').removeClass('active');
+        $('.banhuot').removeClass('active');
+        $('.bunbo').removeClass('active');
+        //
+        $('.product_banhphotuoi').css("display","block");
+        $('.product_list').css("display","none");
+        $('.product_banhcanhgao').css("display","none");
+        $('.product_banhuot').css("display","none");
+        $('.product_bunbo').css("display","none");
+    });
+});
+$(document).ready(function(){
+    $('.buntuoi').click(function(event){
+        $('.banhphotuoi').removeClass('active');
+        $('.buntuoi').addClass('active');
+        $('.banhcanhgao').removeClass('active');
+        $('.banhuot').removeClass('active');
+        $('.bunbo').removeClass('active');
+        //
+        $('.product_banhphotuoi').css("display","none");
+        $('.product_list').css("display","block");
+        $('.product_banhcanhgao').css("display","none");
+        $('.product_banhuot').css("display","none");
+        $('.product_bunbo').css("display","none");
+    });
+});
+$(document).ready(function(){
+    $('.banhcanhgao').click(function(event){
+        $('.banhphotuoi').removeClass('active');
+        $('.buntuoi').removeClass('active');
+        $('.banhcanhgao').addClass('active');
+        $('.banhuot').removeClass('active');
+        $('.bunbo').removeClass('active');
+        //
+        $('.product_banhphotuoi').css("display","none");
+        $('.product_list').css("display","none");
+        $('.product_banhcanhgao').css("display","block");
+        $('.product_banhuot').css("display","none");
+        $('.product_bunbo').css("display","none");
+    });
+});
+$(document).ready(function(){
+    $('.banhuot').click(function(event){
+        $('.banhphotuoi').removeClass('active');
+        $('.buntuoi').removeClass('active');
+        $('.banhcanhgao').removeClass('active');
+        $('.banhuot').addClass('active');
+        $('.bunbo').removeClass('active');
+        //
+        $('.product_banhphotuoi').css("display","none");
+        $('.product_list').css("display","none");
+        $('.product_banhcanhgao').css("display","none");
+        $('.product_banhuot').css("display","block");
+        $('.product_bunbo').css("display","none");
+    });
+});
+$(document).ready(function(){
+    $('.bunbo').click(function(event){
+        $('.banhphotuoi').removeClass('active');
+        $('.buntuoi').removeClass('active');
+        $('.banhcanhgao').removeClass('active');
+        $('.banhuot').removeClass('active');
+        $('.bunbo').addClass('active');
+        //
+        $('.product_banhphotuoi').css("display","none");
+        $('.product_list').css("display","none");
+        $('.product_banhcanhgao').css("display","none");
+        $('.product_banhuot').css("display","none");
+        $('.product_bunbo').css("display","block");
+    });
+});
+/* product_category */
+$(document).ready(function(){
+    $('#img1').click(function(event){
+        $('#image_box1').css("display","block");
+        $('#image_box2').css("display","none");
+        $('#image_box3').css("display","none");
+    });
+});
+$(document).ready(function(){
+    $('#img2').click(function(event){
+        $('#image_box1').css("display","none");
+        $('#image_box2').css("display","block");
+        $('#image_box3').css("display","none");
+    });
+});
+$(document).ready(function(){
+    $('#img3').click(function(event){
+        $('#image_box1').css("display","none");
+        $('#image_box2').css("display","none");
+        $('#image_box3').css("display","block");
+    });
+});

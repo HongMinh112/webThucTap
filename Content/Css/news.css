@@ -1,0 +1,113 @@
+.pageNews{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 160%;
+    background-color: white;
+    top: 430px;
+    display: flex;
+}
+.pageNews_left-block{
+    display: flex;
+}
+.pageNews_left-list{
+    width: 400px;
+    margin: 20px 30px;background-color: rgba(235, 235, 235, 0.3);
+}
+.pageNews_left-list img{
+    width: 400px;
+    height: 200px;
+}
+.pageNews_right-block{
+    position: absolute;
+    top: 60px;
+    background-color: rgba(105, 105, 105, 0.3);
+    width: 330px;
+    margin-bottom: 10px;
+}
+.content_facebook{
+    width: 330px;
+    height: 689px;
+    overflow: scroll;
+    border: 1px solid black;
+}
+
+/* contact */
+.contact{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+    top: 400px;
+}
+.contact_block{
+    display: flex;
+}
+.block{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.content{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contact_block-item{
+    background-color: rgba(216, 214, 214, 0.3);
+    margin: 90px 55px;
+    width: 300px;
+    height: 280px;
+}
+.contact_block-item:hover{
+    background-color: white;
+    display: block;
+    box-shadow: 0px 0px 24px 0px rgb(0 0 0 / 60%);
+}
+.contact_information-input{
+    width: 100%;
+}
+.contact_information-input input{
+    border: 0px;
+    background-color: rgb(236, 236, 236);
+    width: 358px;
+    height: 40px;
+    margin: 0 30px;
+}
+.contact_information-content textarea{
+    width: 95%;
+    height: 350px;
+    border: 0px;
+    background-color: rgb(236, 236, 236);
+    margin: 15px 30px;
+}
+.contact_information-button{
+    text-align: center;
+}
+.contact_information-button button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    background-color: greenyellow;
+}
+.list{
+    border-collapse: collapse;
+    text-align: center;
+}
+.list tr th{
+    margin: 0 15px;
+    border: 0.5px solid black;
+}
+.list tr td{
+    border: 0.5px solid black;
+}
+.list tr td a{
+    background-color: yellowgreen;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+}

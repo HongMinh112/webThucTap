@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.block_lefft{
+    background-color: black;
+    width: 30%;
+    color: white;
+}
+.block_lefft p{
+    padding: 10px 30px;
+    background-color: rgb(63, 63, 63);
+    margin: 7px 20px;
+}
+.menu{
+    padding: 10px 30px;
+    background-color: rgb(63, 63, 63);
+    margin: 7px 20px;
+}.menu ul li{
+    margin: 10px;
+    list-style: none;
+    background-color: black;
+    padding: 5px 0;
+    text-align: center;
+}
+.menu_ul li a:hover{
+    color: chartreuse;
+}
+.menu_ul a{
+    color: white;
+    text-decoration: none;
+}
+.block_right{
+    background-color: rgb(112, 112, 112);
+    width: 100%;
+}
+.block_right .block_right-name{
+    background-color: white;
+    height: 35px;
+    display: flex;
+}
+.block_right .block_right-name .logout{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: black;
+}
+.block_right .block_right-name .logout a:hover{
+    color: greenyellow;
+}
+.form_login{
+    background-color: white;
+    margin: 10px 10px;
+    width: 1000px;
+    height: 545px;
+    border-radius: 20px;
+}
+.form_login-item{
+    width: 250px;
+    border: 1px solid black;
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    text-align: center;
+}
+.form_login-item h3{
+    margin-top: 20px;
+}
+.form_login-item input{
+    margin: 10px 0;
+}
+.form_login-submit input{
+    border-radius: 5px;
+    background-color: chartreuse;
+    color: black;
+}
+/* table produvt */
+.block_right-product_button{
+    background-color: yellowgreen;
+    margin-top: 40px;
+    margin-left: 70px;
+    border-radius: 10px;
+    height: 30px;
+    color: white;
+}
+.block_right-product .container{
+    margin-top: 20px;
+    background-color: white;
+}
+.block_right-product a{
+    text-decoration: none;
+}
+.list{
+    border-collapse: collapse;
+}
+.list tr th{
+    margin: 0 15px;
+    border: 1px solid black;
+}
+.list tr td{
+    border: 1px solid black;
+}
+.insertProduct{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.form_group{
+    text-align: justify;
+    margin-left: 330px;
+    margin-bottom: 10px;
+}
+.form_group input{
+    width: 300px;
+    height: 20px;
+}
+.ivalid{
+    color: red;
+}tr td{
+    text-align: center;
+}
+.typesubmit{
+    background-color: yellowgreen;
+    border-radius: 10px;
+    height: 30px;
+    color: white;
+}
+.typesubmit a{
+    border-radius: 10px;
+    color: white;
+}

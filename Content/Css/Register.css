@@ -1,0 +1,34 @@
+.SignIn{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 550px;
+    top: 400px;
+}
+.SignIn_register{
+    text-align: center;
+    margin-top: 30px;
+}
+.SignIn_register input{
+    width: 250px;
+    height: 30px;
+    margin: 10px 0;
+    border: 0;
+    outline: 0;
+    background-color: rgb(214, 214, 214);
+}
+form{
+    height: 100%;
+}
+.footer_SignIn{
+    position: absolute;
+    top: 900px;
+    width: 100%;
+}
+.SignIn_register-submit button{
+    background-color: greenyellow;
+    border: 0.3;
+    width: 100px;
+    height: 30px;
+    margin: 15px 24px;
+}
